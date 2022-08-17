@@ -10,7 +10,7 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pre-commit = "^2.13.0"
-black = "^21.7b0"
+black = "^22.6.0"
 flake8 = "^3.9.2"
 pylint = "^2.9.6"
 tox = "^3.24.0"
@@ -19,6 +19,7 @@ safety = "^1.10.3"
 pytest-cov = "^2.12.1"
 mdformat = "^0.7.7"
 liccheck = "^0.6.2"
+mypy = "^0.971"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
