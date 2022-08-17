@@ -1,7 +1,7 @@
 astroid==2.11.7; python_full_version >= "3.6.2"
 atomicwrites==1.4.1; python_version >= "3.6" and python_full_version < "3.0.0" and sys_platform == "win32" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") or sys_platform == "win32" and python_version >= "3.6" and python_full_version >= "3.4.0" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6")
 attrs==22.1.0; python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6"
-black==21.12b0; python_full_version >= "3.6.2"
+black==22.6.0; python_full_version >= "3.6.2"
 certifi==2022.6.15; python_version >= "3.7" and python_version < "4"
 cfgv==3.3.1; python_full_version >= "3.6.1" and python_version >= "3.7"
 charset-normalizer==2.1.0; python_version >= "3.7" and python_version < "4" and python_full_version >= "3.6.0"
@@ -46,10 +46,10 @@ safety==1.10.3; python_version >= "3.5"
 semantic-version==2.10.0; python_version >= "2.7"
 six==1.16.0; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0"
 toml==0.10.2; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
-tomli==1.2.3; python_version >= "3.7" and python_full_version >= "3.6.2" and python_version < "3.11"
+tomli==2.0.1; python_full_version < "3.11.0a7" and python_full_version >= "3.6.2" and python_version >= "3.7" and python_version < "3.11"
 tox==3.25.1; (python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.5.0")
 typed-ast==1.5.4; python_version < "3.8" and implementation_name == "cpython" and python_full_version >= "3.6.2" and python_version >= "3.6"
-typing-extensions==4.3.0
+typing-extensions==4.3.0; python_version < "3.8" and python_full_version >= "3.6.2" and python_version >= "3.7" and (python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "3.8" or python_full_version >= "3.5.0" and python_version < "3.8" and python_version >= "3.7")
 urllib3==1.26.11; python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.6.0" and python_version < "4" and python_version >= "3.7"
 virtualenv==20.16.3; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7"
 wrapt==1.14.1; python_full_version >= "3.6.2"
