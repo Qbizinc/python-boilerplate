@@ -19,6 +19,7 @@ safety = "^1.10.3"
 pytest-cov = "^2.12.1"
 mdformat = "^0.7.7"
 liccheck = "^0.6.2"
+mypy = "^0.971"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
